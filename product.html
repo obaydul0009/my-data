@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce project for making obaydul">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>ecommerce project</title>
+</head>
+<body>
+    <!-- navbar start here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="flex-space-around nav-upper">
+            <li class="nav_list"><a class="nav_link" href="index.html">Home</a></li>
+            <li class="nav_list"><a class="nav_link" href="register.html">Register</a></li>
+            <li class="nav_list"><a class="nav_link" href="login.html">Login</a></li>
+            <li class="nav_list"><a class="nav_link" href="index.html">Logout</a></li>
+            <li class="nav_list"><a class="nav_link" href="contact.html">Contact</a></li>
+            <li class="nav_list"><a class="nav_link" href="profile.html"><img class="profile-icon" src="./images/obaydul.jpg" alt="profile icon"></a></li>
+        </ul>
+    
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list"><a href="/index.html" class="nav_brand nav_link">Obay Express</a></li>
+    
+            <li class="nav_list"><a href="/cart.html" class="nav_link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Cart 2 products - $124.40
+            </a></li>
+        </ul>
+    </nav>
+    <!-- navbar end here -->
+
+    <!-- main start here -->
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product_details-left flex-center">
+                    <img src="./images/product1.jpg" alt="">
+                </div>
+                <div class="product_details-right">
+                    <h3 class="product_name">Sony V-5 Headphone</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <strong>Description</strong>
+                        <p class="product_description">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta amet saepe expedita, excepturi, voluptas nihil quisquam at itaque consequuntur dolore officia ipsam deleniti nesciunt placeat fugit magnam doloribus ea aperiam facere, dolorum accusantium porro architecto debitis autem. Cumque error dignissimos quaerat voluptate quod, reprehenderit a quam adipisci, ipsa eius accusamus porro. Consectetur omnis nulla veniam itaque modi porro. Ipsam harum iure ad minus expedita architecto illum in rerum nemo veniam amet voluptas neque quaerat nihil voluptatibus quod repellendus explicabo maxime eveniet eius, necessitatibus possimus laudantium tenetur pariatur. Esse tempore et unde odit! Beatae assumenda qui consectetur, odio quia debitis officiis dolore adipisci accusamus aliquid numquam deserunt, vel vero cum iure id, dolores voluptas quibusdam corporis. Aperiam nemo non nesciunt! Doloribus eligendi quo vitae, officiis enim hic tenetur deleniti voluptas! Culpa possimus, officiis nam explicabo sit asperiores expedita, ipsam atque quo sed voluptate eligendi reiciendis tempore soluta dolores laudantium. Maiores repellendus cum quos odio hic? Quidem perspiciatis ad assumenda voluptates provident vitae sapiente tempore earum sint debitis, illo officiis fuga, omnis accusamus sed laudantium! Ullam, obcaecati? Quod, tempore. Voluptas, facilis eum et nihil doloremque sequi sapiente ipsam odio pariatur placeat rerum cum fuga nesciunt voluptatem vel molestias quaerat impedit modi delectus. 
+                        </p>
+                        <h4 class="prduct_category">Category: Headphone</h4>
+                        <h4 class="prduct_price">Pric: $212.44</h4>
+                        <h4 class="prduct_rating">Rating: 4.5/5</h4>
+                        <button class="btn product_button">Add To Cart</button>
+                        <button class="btn product_button">Back To Shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- main end here -->
+
+    <!-- footer start here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to News Letter</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Enter Your Email">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Obay Express. All rights</p>
+        </div>
+    </footer>
+    <!-- footer end here -->
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
